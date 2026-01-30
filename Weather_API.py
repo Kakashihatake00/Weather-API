@@ -38,7 +38,7 @@ if st.button("Get Weather"):
             with col2:
                 st.metric("Wind Speed", f"{current['windspeed']} km/h")
 
-
+        # added comment here 
         else:
             st.error("Error: Could not fetch weather. Check coordinates.")
             
